@@ -1,0 +1,135 @@
+/*----- Global -----*/
+
+
+body {
+    font-family: "Acumin Pro";
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url("img/BG.svg") no-repeat center top ;
+    background-size: contain;
+    margin-top: -77px;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+
+/*----- Intro -----*/
+
+#intro {
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 40px;
+
+}
+
+#intro img {
+    width: 55%;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+#hello {
+    font-weight: bold;
+    font-size: 100px;
+    color: #9C45EB;
+    margin-top: 50px;
+}
+
+#interests {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/*----What I'm up to -----*/
+#WhatImUpTo {
+    margin-top: 110px;
+    text-align: center;
+
+}
+
+#WhatImUpTo h1 {
+    font-weight: bold;
+}
+
+#infield {
+    padding-top: 80px;
+    width: 80%;
+}
+
+#queens {
+    padding-top: 80px;
+    width: 40%;
+}
+
+.col-md-4 p {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*----- Some stuff I've done -----*/
+
+#StuffIveDone {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#StuffIveDone h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.project-img {
+    margin: 20px;
+    box-shadow: 0px 0px 5px lightgrey;
+    width: 68%;
+    border-radius: 2%;
+}
+
+#StuffIveDone .project-img:hover {
+    opacity: 0.9;
+}
+
+
+#dribbble a {
+    color: #9C45EB;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*----- Contact -----*/
+
+#contact {
+    margin: 40px;
+    text-align: center;
+}
+
+.btn {
+    background: #9C45EB;
+    border: #9C45EB;
+    border-radius: 25px;
+    padding: 10px 10px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin: 40px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+    background: #a85ced;
+}
+
+#contact i {
+    margin-left: 10px;
+    width: 25px;
+}
+
+/*----- Responsive -----*/

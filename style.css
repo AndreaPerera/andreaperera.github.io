@@ -1,0 +1,149 @@
+/*--- Global ---*/
+
+body {
+    font-family: "Acumin Pro";
+}
+
+/*--- Intro ---*/
+
+#intro {
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#hello {
+    font-size: 70pt;
+    font-weight: bold;
+    color: #9C45EB;
+}
+
+#interests {
+    font-weight: bolder;
+
+}
+
+#intro img {
+    width: 10em;
+}
+
+/*--- What I'm up to ---*/
+#WhatImUpTo {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3em;
+}
+
+#WhatImUpTo a {
+    color: #9C45EB;
+}
+
+#WIUT {
+    width: 8em;
+    margin-bottom: 1em;
+}
+
+.col-md-4 {
+    padding: 1em;
+}
+
+#infield {
+    width: 15em;
+}
+
+#queens {
+    width: 7em;
+}
+
+/*--- Some stuff I've done ---*/
+#StuffIveDone {
+    font-size: 20px;
+    text-align: center;
+}
+#SSID {
+    width: 10em;
+    margin-bottom: 1em;
+
+}
+
+.project-img {
+    width: 80%;
+    box-shadow: 0px 0px 10px lightgrey;
+    border-radius: 2%;
+    margin: 10pt;
+}
+
+.project-img:hover {
+    opacity: 0.8;
+}
+
+/*--- Contact ---*/
+
+#contact {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+#dribbble {
+    margin-bottom: 2em;
+}
+
+#dribbble a {
+    font-weight: bold;
+    color: #9C45EB;
+}
+.btn {
+    background: #9C45EB;
+    border: #9C45EB;
+    border-radius: 25pt;
+    /*padding: 10px 10px;*/
+    font-weight: bold;
+    width: 10em;
+    height: 40pt;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 1.2em;
+    font-size: 12pt;
+}
+
+.btn:hover {
+    background: #a85ced;
+}
+
+.btn:active {
+    background: #a85ced;
+}
+
+#contact i {
+    margin-left: 10px;
+    width: 25px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+/*--- Responsive ---*/
+
+@media (min-width: 1200px) {
+    .container {
+        margin-top: -6em;
+        background: url("img/NewBG.svg") no-repeat center top;
+        background-size: contain;
+
+    }
+
+    #intro {
+        margin-top: 10em;
+        margin-right: 1em;
+    }
+
+    #WhatImUpTo {
+        margin-top: 6em;
+    }
+
+    #SSID {
+        width: 40%
+    }
+}
